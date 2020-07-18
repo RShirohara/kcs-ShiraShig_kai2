@@ -1,0 +1,21 @@
+body {
+    font-family: serif;
+    font-size: large;
+    padding: 26px 0;
+    line-height: 1.8;
+    writing-mode: vertical-rl;
+}
+
+p {
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    width: 0;
+    margin: 1.8em;
+}
+
+.tcy {
+    text-combine-upright: all;
+}
