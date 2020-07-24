@@ -1,6 +1,7 @@
 {
     "markdown.preview.fontFamily": "Noto Serif CJK JP",
     "markdown.preview.fontSize": 16,
+    "markdown.styles": ["source/style.css"],
     "plantuml.diagramsRoot": "data",
     "plantuml.exportOutDir": "data",
     "plantuml.exportSubFolder": false,

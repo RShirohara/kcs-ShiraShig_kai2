@@ -3,8 +3,7 @@
 body {
     column-gap: 1.5em;
     columns: 25em;
-    font-family: "Noto Serif JP", serif;
-    font-size: larger;
+    font-family: "Noto Serif CJK JP", "源ノ明朝", "Noto Serif JP", serif;
     height: 25em;
     letter-spacing: 0.03em;
     line-height: 2.2em;
@@ -14,19 +13,24 @@ body {
     text-align: justify;
     writing-mode: vertical-rl;
 }
+
 h2 {
     margin-top: 1em;
 }
+
 ruby {
     text-indent: 0px;
 }
+
 .author {
     text-align: right;
 }
+
 .wrap {
     position: absolute;
     right: 0;
 }
+
 .tcy {
     text-combine-upright: all;
 }
