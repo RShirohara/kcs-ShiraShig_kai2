@@ -11,7 +11,7 @@
                 "-i", "${relativeFile}",
                 "-o", "index.html",
                 "-f", "markdown_phpextra+yaml_metadata_block+hard_line_breaks",
-                "--filter", "script/pandoc-ddmarkdown.py",
+                "-F", "script/pandoc-ddmarkdown.py",
                 "-c", "source/style.css",
                 "-s"
             ],
