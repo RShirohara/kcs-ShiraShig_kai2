@@ -1,0 +1,23 @@
+@startuml 関係図
+
+actor 白露 as st
+actor 時雨 as sg
+rectangle ボトルメール {
+    cloud 噂 as rm
+    interface 実体 as mail
+}
+boundary 海 as sea
+cloud 父親からの手紙 as memory1
+cloud 叔父の手紙 as memory2
+
+rm ..> st: 聞く
+rm ..> sg: 聞く(変化済み)
+mail <-> st: 経由してやり取り
+mail <-> sg: 経由してやり取り
+mail <-> sea: 経由
+st ..> sea: 願う
+sg ..> sea: 願う
+memory1 ..> st: 想起
+memory2 ..> sg: 想起
+
+@enduml
