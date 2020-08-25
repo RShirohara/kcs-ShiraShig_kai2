@@ -41,11 +41,13 @@ def main(source, part):
         key = word.keys()
         if i[1] in ("記号", "未知語") or (part and i[1] not in part):
             continue
-        yomi = re.split(r"[,\t]", cab.parse(i[7]).splitlines()[0])[8]
-        if yomi in key and i[7] not in word[yomi]:
-            word[yomi].append(i[7])
-        else:
+        yomi = "".join(
+            [re.split(r"[,\t]", x)[8] for x in cab.parse(i[7]).splitlines()
+             if x != "EOS"])
+        if yomi not in key:
             word[yomi] = [i[7]]
+        elif i[7] not in word[yomi]:
+            word[yomi].append(i[7])
     for yomi, kaki in word.items():
         if len(kaki) > 1:
             print(f"{yomi}: {','.join(kaki)}")
