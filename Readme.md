@@ -13,4 +13,4 @@
 
 ## プレビュー
 
-[Github Pages](https://rshirohara.github.io/kcs-shirashig-kai2/)
+[GitHub Pages](https://rshirohara.github.io/kcs-shirashig-kai2/)
