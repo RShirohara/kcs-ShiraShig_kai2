@@ -2,7 +2,7 @@
 
 ## これは何
 
-[しらしぐ改二合同](https://twipla.jp/events/431099)用原稿データである。  
+[しらしぐ改二合同](https://twipla.jp/events/431099)用原稿データである。
 
 ## ディレクトリ構造
 
@@ -13,4 +13,4 @@
 
 ## プレビュー
 
-[Github Pages](https://rshirohara.github.io/kcs-ShiraShig_kai2/)
+[Github Pages](https://rshirohara.github.io/kcs-shirashig-kai2/)
