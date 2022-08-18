@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap&subset=japanese");
 
 body {
-    column-gap: 1.5em;
-    columns: 25em;
     font-family: "Noto Serif CJK JP", "源ノ明朝", "Noto Serif JP", serif;
-    height: 25em;
+    height: 90%;
     letter-spacing: 0.03em;
     line-height: 2.2em;
     margin: 30px;
-    max-width: 45em;
     overflow-wrap: break-word;
     text-align: justify;
     writing-mode: vertical-rl;
@@ -18,19 +15,19 @@ h2 {
     margin-inline-start: 1em;
 }
 
-ruby {
-    text-indent: 0px;
+blockquote {
+    margin: 7px 0 5px 0;
+    padding: 16px 0 10px 0;
+    border-left-style: none;
+    border-top-style: solid;
+    border-top-width: 5px;
 }
 
-.author {
-    text-align: right;
+ruby {
+    text-indent: 0px;
 }
 
 .wrap {
     position: absolute;
     right: 0;
-}
-
-.tcy {
-    text-combine-upright: all;
 }
